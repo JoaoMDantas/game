@@ -18,8 +18,7 @@ function checkGuess() {
     guesses.textContent += `${userGuess} `;
   
     if (userGuess === randomNumber) {
-      lastResult.textContent = '
-      Parabéns! Você acertou!';
+      lastResult.textContent = 'Parabéns! Você acertou!';
       lastResult.style.backgroundColor = 'green';
       lowOrHi.textContent = '';
       setGameOver();
